@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on NoiseSocket</title>
+    <link>https://noisesocket.github.io/posts/</link>
+    <description>Recent content in Posts on NoiseSocket</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Aug 2017 16:43:43 +0500</lastBuildDate>
+    
+	<atom:link href="https://noisesocket.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NoiseSocket introduction</title>
+      <link>https://noisesocket.github.io/posts/1/</link>
+      <pubDate>Wed, 30 Aug 2017 16:43:43 +0500</pubDate>
+      
+      <guid>https://noisesocket.github.io/posts/1/</guid>
+      <description>NoiseSocket is an extension of the Noise Protocol Framework that enables quick and seamless secure connections with minimal code size, small keys, modern ciphers and hash functions, and extremely fast speed. It can be used with raw public keys instead of X.509 infrastructure and targets IoT devices, microservices, and back-end applications such as datacenter-to-datacenter communications.
+Not everything in the world of networking revolves around web browsers. There are many situations where TLS (Transport Layer Security) is overkill or simply not applicable.</description>
+    </item>
+    
+  </channel>
+</rss>
