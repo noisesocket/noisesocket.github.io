@@ -175,11 +175,13 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
+        <p>Not everything in the world of networking revolves around web browsers.
+There are many situations where TLS (Transport Layer Security) is overkill or simply not applicable. For example, in IoT (Internet of Things) implementing the full TLS stack is a challenge because of code size, CPU constraints, the number of TLS features a developer must support, and the complexity of provisioning devices during manufacturing.
+</p>
 
-<p>Not everything in the world of networking revolves around web browsers.  There are many situations where TLS (Transport Layer Security) is overkill or simply not applicable. For example, in IoT (Internet of Things) implementing the full TLS stack is a challenge because of code size, CPU constraints, the number of TLS features a developer must support, and the complexity of provisioning devices during manufacturing. There are also cases when raw public keys are sufficient (SSH, P2P (Peer to Peer), and others).</p>
+<p>There are also cases when raw public keys are just enough (SSH, P2P (Peer to Peer), and others).</p>
 
-<p>There are also use cases where encryption is still not used at all. Microservices tend to communicate with each other using unencrypted HTTP. There are also many additional inherent security concerns in TLS including untrustworthy certificate authorities, MITM (man-in-the-middle) attacks, certificate revocations, and more&hellip;</p>
+<p>Also, many branches of IT still lack encryption because of complexity needed to run a full Certificate authority. Microservices tend to communicate with each other using unencrypted HTTP. There are also many additional inherent security concerns in TLS including untrustworthy certificate authorities, MITM (man-in-the-middle) attacks, certificate revocations, and more&hellip;</p>
 
 <p>The <a href="https://noiseprotocol.org"><strong>Noise Protocol Framework (NPF)</strong></a> specification was published in 2016.  It is a constructor of protocols for secure data transfer and simply describes the stage of the handshake and what happens after the handshake.</p>
 
@@ -323,7 +325,6 @@ Processing Rules
 <p>In addition, not so long ago, one of the Noise patterns, IK (which is 0-RTT) received <a href="https://www.wireguard.com/formal-verification/">formal verification</a> from the WireGuard VPN authors that everything works correctly. All these things only strengthened our confidence in the correctness of this choice.</p>
 
 <p>Please take a look at the NoiseSocket <a href="https://noisesocket.github.io/spec/noisesocket/">specification</a>. We are sure that for some of your projects you will find it more suitable than TLS. In the meantime, we await your comments and feedback.</p>
-
       </article>
 
       <ul class="pager blog-pager">
