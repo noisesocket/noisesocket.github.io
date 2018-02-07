@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NoiseSocket</title>
-    <link>https://noisesocket.github.io/</link>
+    <link>https://noisesocket.com/</link>
     <description>Recent content on NoiseSocket</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     <copyright>&amp;copy; Virgil Security</copyright>
     <lastBuildDate>Fri, 01 Sep 2017 16:43:43 +0500</lastBuildDate>
     
-	<atom:link href="https://noisesocket.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://noisesocket.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NoiseSocket introduction</title>
-      <link>https://noisesocket.github.io/post/1/</link>
+      <link>https://noisesocket.com/post/1/</link>
       <pubDate>Fri, 01 Sep 2017 16:43:43 +0500</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.github.io/post/1/</guid>
+      <guid>https://noisesocket.com/post/1/</guid>
       <description>&lt;p&gt;Not everything in the world of networking revolves around web browsers.
 There are many situations where TLS (Transport Layer Security) is overkill or simply not applicable. For example, in IoT (Internet of Things) implementing the full TLS stack is a challenge because of code size, CPU constraints, the number of TLS features a developer must support, and the complexity of provisioning devices during manufacturing.
 &lt;/p&gt;</description>
@@ -27,10 +27,10 @@ There are many situations where TLS (Transport Layer Security) is overkill or si
     
     <item>
       <title></title>
-      <link>https://noisesocket.github.io/spec/noisesocket/</link>
+      <link>https://noisesocket.com/spec/noisesocket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.github.io/spec/noisesocket/</guid>
+      <guid>https://noisesocket.com/spec/noisesocket/</guid>
       <description>The NoiseSocket Protocolcode{white-space: pre;}The NoiseSocket ProtocolAuthor: Alexey ErmishkinAuthor: Trevor PerrinRevision: 1Date: 2017-07-27Table of ContentsAbstract1. Overview2. Message Formats2.1. Handshake messages2.2. Transport messages2.3. Encrypted payloads3. Negotiation4. Prologue5. API6. IPR7. Acknowledgements8. ReferencesAbstractNoiseSocket is an extension of the Noise Protocol Framework that enables quick and seamless secure connections with minimal code size, small keys, modern ciphers and hash functions, and extremely fast speed.</description>
     </item>
     

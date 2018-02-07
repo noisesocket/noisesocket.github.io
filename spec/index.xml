@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Specs on NoiseSocket</title>
-    <link>https://noisesocket.github.io/spec/</link>
+    <link>https://noisesocket.com/spec/</link>
     <description>Recent content in Specs on NoiseSocket</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>scratch@virgilsecurity.com (Virgil Security)</webMaster>
     <copyright>&amp;copy; Virgil Security</copyright>
     
-	<atom:link href="https://noisesocket.github.io/spec/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://noisesocket.com/spec/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://noisesocket.github.io/spec/noisesocket/</link>
+      <link>https://noisesocket.com/spec/noisesocket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.github.io/spec/noisesocket/</guid>
+      <guid>https://noisesocket.com/spec/noisesocket/</guid>
       <description>The NoiseSocket Protocolcode{white-space: pre;}The NoiseSocket ProtocolAuthor: Alexey ErmishkinAuthor: Trevor PerrinRevision: 1Date: 2017-07-27Table of ContentsAbstract1. Overview2. Message Formats2.1. Handshake messages2.2. Transport messages2.3. Encrypted payloads3. Negotiation4. Prologue5. API6. IPR7. Acknowledgements8. ReferencesAbstractNoiseSocket is an extension of the Noise Protocol Framework that enables quick and seamless secure connections with minimal code size, small keys, modern ciphers and hash functions, and extremely fast speed.</description>
     </item>
     
