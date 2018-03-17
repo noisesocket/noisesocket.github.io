@@ -28,7 +28,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
       <guid>https://noisesocket.com/spec/noisesocket/</guid>
-      <description>The NoiseSocket Protocolcode{white-space: pre;}The NoiseSocket ProtocolAuthor: Alexey ErmishkinAuthor: Trevor PerrinRevision: 1Date: 2017-07-27Table of ContentsAbstract1. Overview2. Message Formats2.1. Handshake messages2.2. Transport messages2.3. Encrypted payloads3. Negotiation4. Prologue5. API6. IPR7. Acknowledgements8. ReferencesAbstractNoiseSocket is an extension of the Noise Protocol Framework that enables quick and seamless secure connections with minimal code size, small keys, modern ciphers and hash functions, and extremely fast speed.</description>
+      <description>The NoiseSocket Protocolcode{white-space: pre;}The NoiseSocket ProtocolAuthor: Alexey ErmishkinAuthor: Trevor PerrinRevision: 2draftDate: 2018-03-04PDF: noisesocket.pdfTable of ContentsAbstract1. Overview2. Message Formats2.1. Handshake messages2.2. Transport messages2.3. Encrypted payloads3. Negotiation4. Prologue5. API6. IPR7. Acknowledgements8. ReferencesAbstractNoiseSocket provides an encoding layer for the Noise Protocol Framework.
+NoiseSocket can encode Noise messages and associated negotiation data into a form suitable for transmission over reliable, stream-based protocols such as TCP.</description>
     </item>
     
   </channel>
