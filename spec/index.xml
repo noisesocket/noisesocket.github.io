@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Specs on NoiseSocket</title>
-    <link>https://noisesocket.com/spec/</link>
+    <link>https://noisesocket.org/spec/</link>
     <description>Recent content in Specs on NoiseSocket</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>scratch@virgilsecurity.com (Virgil Security)</webMaster>
     <copyright>&amp;copy; Virgil Security</copyright>
     
-	<atom:link href="https://noisesocket.com/spec/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://noisesocket.org/spec/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://noisesocket.com/spec/nls/</link>
+      <link>https://noisesocket.org/spec/nls/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.com/spec/nls/</guid>
+      <guid>https://noisesocket.org/spec/nls/</guid>
       <description>The NLS Frameworkcode{white-space: pre;}The NLS FrameworkAuthor: Trevor Perrin (noise@trevp.net)Revision: 1Date: 2018-03-05Status: unofficial/unstablePDF: nls.pdfTable of Contents1. Introduction2. Overview3. The NoiseLingo negotiation language3.1. NoiseLingo overview3.2. NoiseLingo definitions3.3. NoiseLingo notes3.4. NoiseLingo fields3.5. Protocol aliases4. The NLS framework5. Basic profiles5.1. NoiseLink5.2. NoiseZeroLink5.3. NoiseTinyLink5.4. NoiseAnonBox5.5. NoiseAuthBox6.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://noisesocket.com/spec/noisesocket/</link>
+      <link>https://noisesocket.org/spec/noisesocket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.com/spec/noisesocket/</guid>
+      <guid>https://noisesocket.org/spec/noisesocket/</guid>
       <description>The NoiseSocket Protocolcode{white-space: pre;}The NoiseSocket ProtocolAuthor: Alexey ErmishkinAuthor: Trevor PerrinRevision: 2draftDate: 2018-03-04PDF: noisesocket.pdfTable of ContentsAbstract1. Overview2. Message Formats2.1. Handshake messages2.2. Transport messages2.3. Encrypted payloads3. Negotiation4. Prologue5. API6. IPR7. Acknowledgements8. ReferencesAbstractNoiseSocket provides an encoding layer for the Noise Protocol Framework.
 NoiseSocket can encode Noise messages and associated negotiation data into a form suitable for transmission over reliable, stream-based protocols such as TCP.</description>
     </item>

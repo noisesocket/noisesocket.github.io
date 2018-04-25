@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NoiseSocket</title>
-    <link>https://noisesocket.com/</link>
+    <link>https://noisesocket.org/</link>
     <description>Recent content on NoiseSocket</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     <copyright>&amp;copy; Virgil Security</copyright>
     <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://noisesocket.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://noisesocket.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The NLS Framework</title>
-      <link>https://noisesocket.com/post/2/</link>
+      <link>https://noisesocket.org/post/2/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.com/post/2/</guid>
+      <guid>https://noisesocket.org/post/2/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;NLS&lt;/strong&gt; (or &lt;strong&gt;NoiseLingoSocket&lt;/strong&gt;) framework builds on the Noise Protocol Framework and the NoiseSocket encoding layer to provide a rich set of features for building complex protocols.  Protocols based on NLS can negotiate their choice of Noise protocol, PSK, and transport phase options, and can also exchange &lt;strong&gt;evidence blobs&lt;/strong&gt; for their static public keys (e.g. certificates).&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -27,10 +27,10 @@
     
     <item>
       <title>NoiseSocket introduction</title>
-      <link>https://noisesocket.com/post/1/</link>
+      <link>https://noisesocket.org/post/1/</link>
       <pubDate>Fri, 01 Sep 2017 16:43:43 +0500</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.com/post/1/</guid>
+      <guid>https://noisesocket.org/post/1/</guid>
       <description>&lt;p&gt;Not everything in the world of networking revolves around web browsers.
 There are many situations where TLS (Transport Layer Security) is overkill or simply not applicable. For example, in IoT (Internet of Things) implementing the full TLS stack is a challenge because of code size, CPU constraints, the number of TLS features a developer must support, and the complexity of provisioning devices during manufacturing.
 &lt;/p&gt;</description>
@@ -38,19 +38,19 @@ There are many situations where TLS (Transport Layer Security) is overkill or si
     
     <item>
       <title></title>
-      <link>https://noisesocket.com/spec/nls/</link>
+      <link>https://noisesocket.org/spec/nls/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.com/spec/nls/</guid>
+      <guid>https://noisesocket.org/spec/nls/</guid>
       <description>The NLS Frameworkcode{white-space: pre;}The NLS FrameworkAuthor: Trevor Perrin (noise@trevp.net)Revision: 1Date: 2018-03-05Status: unofficial/unstablePDF: nls.pdfTable of Contents1. Introduction2. Overview3. The NoiseLingo negotiation language3.1. NoiseLingo overview3.2. NoiseLingo definitions3.3. NoiseLingo notes3.4. NoiseLingo fields3.5. Protocol aliases4. The NLS framework5. Basic profiles5.1. NoiseLink5.2. NoiseZeroLink5.3. NoiseTinyLink5.4. NoiseAnonBox5.5. NoiseAuthBox6.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://noisesocket.com/spec/noisesocket/</link>
+      <link>https://noisesocket.org/spec/noisesocket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>https://noisesocket.com/spec/noisesocket/</guid>
+      <guid>https://noisesocket.org/spec/noisesocket/</guid>
       <description>The NoiseSocket Protocolcode{white-space: pre;}The NoiseSocket ProtocolAuthor: Alexey ErmishkinAuthor: Trevor PerrinRevision: 2draftDate: 2018-03-04PDF: noisesocket.pdfTable of ContentsAbstract1. Overview2. Message Formats2.1. Handshake messages2.2. Transport messages2.3. Encrypted payloads3. Negotiation4. Prologue5. API6. IPR7. Acknowledgements8. ReferencesAbstractNoiseSocket provides an encoding layer for the Noise Protocol Framework.
 NoiseSocket can encode Noise messages and associated negotiation data into a form suitable for transmission over reliable, stream-based protocols such as TCP.</description>
     </item>
