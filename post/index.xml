@@ -2,24 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on NoiseSocket</title>
-    <link>http://noisesocket.org/post/</link>
+    <link>https://noisesocket.org/post/</link>
     <description>Recent content in Posts on NoiseSocket</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>scratch@virgilsecurity.com (Virgil Security)</managingEditor>
     <webMaster>scratch@virgilsecurity.com (Virgil Security)</webMaster>
     <copyright>&amp;copy; Virgil Security</copyright>
-    <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://noisesocket.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://noisesocket.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Noise protocol revision 34</title>
+      <link>https://noisesocket.org/post/3/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      <author>scratch@virgilsecurity.com (Virgil Security)</author>
+      <guid>https://noisesocket.org/post/3/</guid>
+      <description>&lt;p&gt;This release added deferred patterns, and a lot of clarifications, including better terminology for compound protocols like Noise Pipes / NLS which might involve Alice and Bob negotiating and switching between simple Noise protocols.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>The NLS Framework</title>
-      <link>http://noisesocket.org/post/2/</link>
+      <link>https://noisesocket.org/post/2/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>http://noisesocket.org/post/2/</guid>
+      <guid>https://noisesocket.org/post/2/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;NLS&lt;/strong&gt; (or &lt;strong&gt;NoiseLingoSocket&lt;/strong&gt;) framework builds on the Noise Protocol Framework and the NoiseSocket encoding layer to provide a rich set of features for building complex protocols.  Protocols based on NLS can negotiate their choice of Noise protocol, PSK, and transport phase options, and can also exchange &lt;strong&gt;evidence blobs&lt;/strong&gt; for their static public keys (e.g. certificates).&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -27,10 +38,10 @@
     
     <item>
       <title>NoiseSocket introduction</title>
-      <link>http://noisesocket.org/post/1/</link>
+      <link>https://noisesocket.org/post/1/</link>
       <pubDate>Fri, 01 Sep 2017 16:43:43 +0500</pubDate>
       <author>scratch@virgilsecurity.com (Virgil Security)</author>
-      <guid>http://noisesocket.org/post/1/</guid>
+      <guid>https://noisesocket.org/post/1/</guid>
       <description>&lt;p&gt;Not everything in the world of networking revolves around web browsers.
 There are many situations where TLS (Transport Layer Security) is overkill or simply not applicable. For example, in IoT (Internet of Things) implementing the full TLS stack is a challenge because of code size, CPU constraints, the number of TLS features a developer must support, and the complexity of provisioning devices during manufacturing.
 &lt;/p&gt;</description>
